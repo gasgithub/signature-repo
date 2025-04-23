@@ -1,4 +1,4 @@
-FROM registry.redhat.io/ubi88/httpd-24
+FROM registry.access.redhat.com/ubi88/httpd-24
 
 # Add application sources
 ADD index.html /var/www/html/index.html
